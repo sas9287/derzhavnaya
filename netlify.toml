@@ -5,6 +5,3 @@
 [build.environment]
   NODE_VERSION = "14" # Версия Node.js, которая будет использоваться
 
-[dev]
-  publish = "derzhavnaya" # Директория, из которой будет разрабатываться локальный сервер
-
