@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Матч - Название игры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="match-page">
+      <!-- Фон с зонами для карт -->
+      <div class="game-board">
+          <!-- Здесь будут изображены зоны для карт -->
+      </div>
+
+      <!-- Карты на руках -->
+      <div class="hand-cards">
+          <!-- Контейнеры для карт, будут добавляться динамически -->
+      </div>
+
+      <!-- Фракция (Лидеры) -->
+      <div class="faction">
+          <!-- Контейнеры для карт Лидеров, будут добавляться динамически -->
+      </div>
+
+      <!-- Ресурсы -->
+      <div class="resources">
+          <!-- Электоральные очки (ЭО) -->
+          <div class="electoral-points">
+              <span class="resource-label">ЭО:</span>
+              <span class="resource-value">0</span>
+          </div>
+
+          <!-- Очки лидера (ПО, РП, ХР, ПВ) -->
+          <div class="leader-points">
+              <span class="resource-label">ПО:</span>
+              <span class="resource-value">0</span>
+
+              <span class="resource-label">РП:</span>
+              <span class="resource-value">0</span>
+
+              <span class="resource-label">ХР:</span>
+              <span class="resource-value">0</span>
+
+              <span class="resource-label">ПВ:</span>
+              <span class="resource-value">0</span>
+          </div>
+      </div>
+
+      <!-- Политические Партии (ПП) -->
+      <div class="political-parties">
+          <!-- Иконки ПП, будут добавляться динамически -->
+      </div>
+  </div>
+  <script src="match.js"></script>
+</body>
+</html>

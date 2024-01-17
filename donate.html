@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Донат - Название твоей игры</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="start-page">
+      <img src="название_игры.png" alt="Название игры" />
+    </div>
+    <div class="donate-section">
+      <!-- Форма для отправки денег -->
+      <form id="donate-form">
+        <label for="donate-amount">Сумма доната:</label>
+        <input type="number" id="donate-amount" step="1" min="0" placeholder="Введите сумму" required>
+        <button type="submit" id="donate-submit" disabled>Отправить</button>
+      </form>
+      <!-- Кнопка "Назад" -->
+      <button id="back-button">Назад</button>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="script.js"></script>
+    <script src="donate.js"></script>
+  </body>
+</html>
