@@ -1,6 +1,6 @@
 const { Telegraf, Markup } = require('telegraf');
 
-const bot = new Telegraf(process.env.BOT_TOKEN); // Замените на ваш токен
+const bot = new Telegraf('6774167185:AAFfpIXcx2zdDkjQocnsdwTTWPHsnCm0jBE'); // Замените на ваш токен
 
 bot.start((ctx) => {
   const gameUrl = 'https://famous-creponne-e98f64.netlify.app/'; // Замените на URL вашей игры
