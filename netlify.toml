@@ -1,5 +1,4 @@
 [build]
-  base = "derzhavnaya" # Директория с вашим билдом
   command = "npm bot.js" # Команда для сборки вашего проекта
 
 [build.environment]
