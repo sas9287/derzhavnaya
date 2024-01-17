@@ -1,5 +1,10 @@
 [build]
-  command = "node bot.js" # Команда для запуска вашего бота
-  publish = "derzhavnaya"
-  base = "derzhavnaya"
-  functions = "functions"
+  base = "derzhavnaya" # Директория с вашим билдом
+  command = "npm bot.js" # Команда для сборки вашего проекта
+
+[build.environment]
+  NODE_VERSION = "14" # Версия Node.js, которая будет использоваться
+
+[dev]
+  publish = "derzhavnaya" # Директория, из которой будет разрабатываться локальный сервер
+
