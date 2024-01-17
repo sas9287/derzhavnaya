@@ -1,4 +1,5 @@
 [build]
   command = "node bot.js" # Команда для запуска вашего бота
   publish = "derzhavnaya"
+  base = "derzhavnaya"
   functions = "functions"
