@@ -1,0 +1,185 @@
+/* Стили для заголовка h1 */
+h1 {
+    color: blue;
+  }
+  
+  /* Стили для контейнера игры */
+  .game-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url("путь_к_фоновому_изображению.jpg");
+    background-size: cover;
+    background-position: center; /* Разместить фон по центру */
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .game-container {
+      width: 100%; /* Полная ширина экрана при ширине экрана менее 768px */
+    }
+  }
+  
+  /* Стили для стартовой страницы */
+  .menu-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Стили для изображения названия игры */
+  .menu-page img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Стили для меню кнопок */
+  .menu {
+    margin-top: 20px;
+  }
+  
+  /* Стили для кнопок */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  /* Стиль при наведении и фокусе на кнопки */
+  button:hover,
+  button:focus {
+    background-color: #ccc; /* Слегка темнеет при наведении и фокусе */
+  }
+  
+  /* Стили для текстового поля */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Разрешить вертикальное изменение размера текстового поля */
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  /* Стили для кнопки "Назад" */
+  #back-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Убирает подчеркивание текста */
+  }
+  
+  /* Стиль при наведении на кнопку "Назад" */
+  #back-button:hover,
+  #back-button:focus {
+    background-color: #ccc;
+  }
+  
+  /* Стиль для заблокированной кнопки "Отправить" */
+  #donate-submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Стиль для поля ввода суммы доната */
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  /* Стили для кнопок с ссылками */
+  .menu a {
+    text-decoration: none; /* Убирает подчеркивание текста внутри ссылки */
+  }
+  
+  /* Стили для контейнера фона */
+  .game-board {
+    background-image: url("фон_матча.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Стили для области "Карты на руках" */
+  .hand-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Расстояние между картами */
+  }
+  
+  /* Стили для области "Фракции" */
+  .faction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Расстояние между картами Лидеров */
+  }
+  
+  /* Стили для области "Ресурсы" */
+  .resource-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Внутренний отступ */
+  }
+  
+  /* Стили для карт */
+  .card {
+    width: 100px; /* Ширина карты */
+    height: 150px; /* Высота карты */
+    background-color: #fff; /* Фон карты */
+    border: 1px solid #000; /* Граница карты */
+    border-radius: 5px; /* Скругленные углы */
+  }
+  
+  /* для старта: начало */
+  body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .icon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .text-container {
+    margin-bottom: 20px;
+  }
+  .start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  /* для старта: конец */
+  

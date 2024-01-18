@@ -3,23 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Название твоей игры</title>
+    <title>Державная</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="menu-page">
-      <div class="game-name">Державная</div>
-      <!-- <img src="название_игры.png" alt="Название игры" /> -->
-      <div class="menu">
-        <a href="start.html"><button id="start-button">Начать игру</button></a>
-        <a href="rules.html"><button id="rules-button">Правила игры</button></a>
-        <a href="donate.html"><button id="donate-button">Донат</button></a>
-        <a href="support.html"
-          ><button id="support-button">Поддержка</button></a
-        >
+    <div class="main">
+      <div class="menu-page">
+        <div class="game-name">Державная</div>
+        <!-- <img src="название_игры.png" alt="Название игры" /> -->
+        <div class="menu-buttons">
+          <a href="start.html"
+            ><button class="menu-button" id="start-button">
+              Начать игру
+            </button></a
+          >
+          <a href="rules.html"
+            ><button class="menu-button" id="rules-button">
+              Правила игры
+            </button></a
+          >
+          <a href="donate.html"
+            ><button class="menu-button" id="donate-button">Донат</button></a
+          >
+          <a href="support.html"
+            ><button class="menu-button" id="support-button">
+              Поддержка
+            </button></a
+          >
+        </div>
       </div>
     </div>
-    <canvas id="gameCanvas"></canvas>
-    <script src="script.js"></script>
+    <!-- <canvas id="gameCanvas"></canvas> -->
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>

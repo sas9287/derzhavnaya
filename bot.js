@@ -1,17 +1,19 @@
-const { Telegraf, Markup } = require('telegraf');
-
- const bot = new Telegraf(process.env.BOT_TOKEN);
-// const bot = new Telegraf('---'); // Замените на ваш токен
+require("dotenv").config();
+const { Telegraf, Markup } = require("telegraf");
+// const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
+const bot = new Telegraf("6774167185:AAFfpIXcx2zdDkjQocnsdwTTWPHsnCm0jBE");
 
 bot.start((ctx) => {
-  const gameUrl = 'https://famous-creponne-e98f64.netlify.app/'; // Замените на URL вашей игры
-  const gameButton = Markup.button.url('Играть', gameUrl);
+  const gameUrl = "https://famous-creponne-e98f64.netlify.app/"; // Замените на URL вашей игры
+  const gameButton = Markup.button.url("Играть", gameUrl);
 
-  ctx.reply('Добро пожаловать! Нажмите на кнопку ниже, чтобы начать играть.', Markup.inlineKeyboard([gameButton]));
+  ctx.reply(
+    "Добро пожаловать! Нажмите на кнопку ниже, чтобы начать играть.",
+    Markup.inlineKeyboard([gameButton])
+  );
 });
 
 bot.launch();
-
 
 /*
 запуск бота
