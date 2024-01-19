@@ -1,17 +1,12 @@
 {
+  "name": "derzhavnaya",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "dotenv": "^16.3.1",
     "telegraf": "^4.15.3"
-  },
-  "name": "derzhavnaya",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "main": "index.html"
+  }
 }
