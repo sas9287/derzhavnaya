@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"  # Команда для сборки вашего проекта
+  command = "npm install && npm run build"  # Команда для сборки вашего проекта
 
 [build.environment]
   NODE_VERSION = "18"  # Версия Node.js, которую вы хотите использовать
