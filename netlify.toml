@@ -2,5 +2,5 @@
   command = "node bot.js" # Команда для сборки вашего проекта
 
 [build.environment]
-  NODE_VERSION = "14" # Версия Node.js, которая будет использоваться
+  NODE_VERSION = "18" # Версия Node.js, которая будет использоваться
 
