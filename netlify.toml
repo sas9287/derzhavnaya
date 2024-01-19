@@ -1,14 +1,2 @@
 [build]
-  command = "npm start" # Команда для запуска вашего Node.js-сервера
-
-[build.environment]
-  NODE_VERSION = "18"  # Версия Node.js, которую вы хотите использовать
-
-[context.production.environment]
-  NODE_ENV = "production"  # Установка среды на production (для вашего чат-бота)
-
-[context.deploy-preview]
-  command = "npm start"  # Команда для сборки проекта на предварительном просмотре
-
-[context.deploy-preview.environment]
-  NODE_ENV = "development"  # Установка среды на development (для предварительного просмотра)
+  command = "node bot.js" # Команда для запуска вашего Node.js-сервера
