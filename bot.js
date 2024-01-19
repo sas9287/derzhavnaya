@@ -4,7 +4,7 @@ const { Telegraf, Markup } = require("telegraf");
 const bot = new Telegraf("6774167185:AAFfpIXcx2zdDkjQocnsdwTTWPHsnCm0jBE");
 
 bot.start((ctx) => {
-  const gameUrl = "https://famous-creponne-e98f64.netlify.app/"; // Замените на URL вашей игры
+  const gameUrl = "https://derzhavnaya.netlify.app"; // Замените на URL вашей игры
   const gameButton = Markup.button.url("Играть", gameUrl);
 
   ctx.reply(
